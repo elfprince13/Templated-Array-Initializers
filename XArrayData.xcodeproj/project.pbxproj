@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9B07D681ADD599B00D38670 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B07D671ADD599B00D38670 /* main.cpp */; };
+		E9B07D701ADD5A2200D38670 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B07D6E1ADD5A2200D38670 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		E9B07D641ADD599B00D38670 /* XArrayData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XArrayData; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9B07D671ADD599B00D38670 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9B07D6E1ADD5A2200D38670 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = SOURCE_ROOT; };
+		E9B07D6F1ADD5A2200D38670 /* TemplStaticArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplStaticArray.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		E9B07D661ADD599B00D38670 /* XArrayData */ = {
 			isa = PBXGroup;
 			children = (
-				E9B07D671ADD599B00D38670 /* main.cpp */,
+				E9B07D6E1ADD5A2200D38670 /* test.cpp */,
+				E9B07D6F1ADD5A2200D38670 /* TemplStaticArray.h */,
 			);
 			path = XArrayData;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B07D681ADD599B00D38670 /* main.cpp in Sources */,
+				E9B07D701ADD5A2200D38670 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
